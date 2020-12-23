@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Date" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAACAEEQAMAAAAAAgABAAAAAAQAQAQ=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exception" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAACA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionInput" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAIAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAFAAAAAAAABBBAAAQAAAAAgAAEEAAAAAAABE=</HashCode>
+      <FileName>Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAQAEAAQAAAAAAAAAAAAAgAAAAABA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyRing&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gkIAAAAggIBAAAkACIAAAAAgEAEAUAAAKAAAAAAAAgA=</HashCode>
+      <FileName>MyRing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABQAAMAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deposit" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACQAAAIAoAAIQAAAAAAAAAACAAgAAAAAAo=</HashCode>
+      <FileName>Deposit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Expenses" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAQAAAACAAAAIAgAAIQBAAAACAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Expenses.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Income" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACEAAAAAAABAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Income.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OtherIncome" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBACAAAAIACAAAAIAgAAIQAAAAgAAAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>OtherIncome.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transaction" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAQQAAAAEAgAAERAgKgAAAEAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Account" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiYACAAQBAEAAAAAAAALFUAYAEQBCQRAAgAEJgAAAMI=</HashCode>
+      <FileName>Account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankAccount" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAIAAAAAQAAEAAAAQBAAAEEAAAAkAA=</HashCode>
+      <FileName>BankAccount.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Currency" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAiAAAABAAAAIgAAAAQAACAAAAAABEAAAAAAAAAA=</HashCode>
+      <FileName>Currency.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryFile&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAQAAAAEAAAIAAACAJAAICQAAAAA=</HashCode>
+      <FileName>BinaryFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="File" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>File.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextFile&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAgAEAAAAAAQAAAAEAAAAAAACABAAoCAAAAAA=</HashCode>
+      <FileName>TextFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

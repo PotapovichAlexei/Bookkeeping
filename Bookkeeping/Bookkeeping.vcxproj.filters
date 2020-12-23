@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\container">
+      <UniqueIdentifier>{b1ff36d3-e8d7-4278-8da8-0369e847d378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\transactions">
+      <UniqueIdentifier>{dfb73d14-95cb-4dac-8a0b-64520647ec0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\transactions">
+      <UniqueIdentifier>{02464772-4a08-4932-8839-7eae09b21c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\conteiner">
+      <UniqueIdentifier>{6a99e0e1-b2cd-47d2-95e1-8921708c427a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\person">
+      <UniqueIdentifier>{8d5228a9-9cda-4c1d-be9d-67858e7931dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\person">
+      <UniqueIdentifier>{26dfec15-e8ea-445c-99e6-8a552454d772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\files">
+      <UniqueIdentifier>{70f62841-9632-42e5-9565-01eb5a261dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\files">
+      <UniqueIdentifier>{7905c8fc-b0d3-466d-8a96-4f07eeab7ec4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Date.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deposit.cpp">
+      <Filter>Resource Files\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expenses.cpp">
+      <Filter>Resource Files\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="Income.cpp">
+      <Filter>Resource Files\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherIncome.cpp">
+      <Filter>Resource Files\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>Resource Files\transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>Resource Files\conteiner</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Resource Files\conteiner</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRing.cpp">
+      <Filter>Resource Files\conteiner</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Resource Files\person</Filter>
+    </ClCompile>
+    <ClCompile Include="Currency.cpp">
+      <Filter>Resource Files\person</Filter>
+    </ClCompile>
+    <ClCompile Include="BankAccount.cpp">
+      <Filter>Resource Files\person</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Resource Files\files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Resource Files\files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Income.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherIncome.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="Deposit.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expenses.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRing.h">
+      <Filter>Header Files\container</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\person</Filter>
+    </ClInclude>
+    <ClInclude Include="BankAccount.h">
+      <Filter>Header Files\person</Filter>
+    </ClInclude>
+    <ClInclude Include="Currency.h">
+      <Filter>Header Files\person</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Header Files\files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Header Files\files</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\files</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaction.h">
+      <Filter>Header Files\transactions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
